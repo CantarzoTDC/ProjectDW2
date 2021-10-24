@@ -1,0 +1,140 @@
+{
+  "object": "list" ,
+  "total_cards": 550 ,
+  "has_more": true ,
+  "next_page": "https://api.scryfall.com/cards/search?format=json\u0026include_extras=false\u0026include_multilingual=false\u0026order=cmc\u0026page=3\u0026q=c%3Ared+pow%3D3\u0026unique=cards" ,
+  "data": [
+    {
+      "object": "card" ,
+      "id": "3d0081b1-40fd-44ad-b154-efe2f27fed6b" ,
+      "oracle_id": "0718ea67-ced3-46bc-9164-8841e6bd73ae" ,
+      "multiverse_ids": [
+        535040
+      ] ,
+      "mtgo_id": 93494 ,
+      "arena_id": 78611 ,
+      "tcgplayer_id": 248315 ,
+      "cardmarket_id": 575087 ,
+      "name": "Sunrise Cavalier" ,
+      "lang": "en" ,
+      "released_at": "2021-09-24" ,
+      "uri": "https://api.scryfall.com/cards/3d0081b1-40fd-44ad-b154-efe2f27fed6b" ,
+      "scryfall_uri": "https://scryfall.com/card/mid/244/sunrise-cavalier?utm_source=api" ,
+      "layout": "normal" ,
+      "highres_image": false ,
+      "image_status": "lowres" ,
+      "image_uris": {
+        "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/3/d/3d0081b1-40fd-44ad-b154-efe2f27fed6b.jpg?1631301173" ,
+        "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/d/3d0081b1-40fd-44ad-b154-efe2f27fed6b.jpg?1631301173" ,
+        "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/3/d/3d0081b1-40fd-44ad-b154-efe2f27fed6b.jpg?1631301173" ,
+        "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/3/d/3d0081b1-40fd-44ad-b154-efe2f27fed6b.png?1631301173" ,
+        "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/3/d/3d0081b1-40fd-44ad-b154-efe2f27fed6b.jpg?1631301173" ,
+        "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/3/d/3d0081b1-40fd-44ad-b154-efe2f27fed6b.jpg?1631301173"
+      } ,
+      "mana_cost": "{1}{R}{W}" ,
+      "cmc": 3.0 ,
+      "type_line": "Creature — Human Knight" ,
+      "oracle_text": "Trample, haste\nIf it's neither day nor night, it becomes day as Sunrise Cavalier enters the battlefield.\nWhenever day becomes night or night becomes day, put a +1/+1 counter on target creature you control." ,
+      "power": "3" ,
+      "toughness": "3" ,
+      "colors": [
+        "R" ,
+        "W"
+      ] ,
+      "color_identity": [
+        "R" ,
+        "W"
+      ] ,
+      "keywords": [
+        "Haste" ,
+        "Trample"
+      ] ,
+      "legalities": {
+        "standard": "legal" ,
+        "future": "legal" ,
+        "historic": "legal" ,
+        "gladiator": "legal" ,
+        "pioneer": "legal" ,
+        "modern": "legal" ,
+        "legacy": "legal" ,
+        "pauper": "not_legal" ,
+        "vintage": "legal" ,
+        "penny": "legal" ,
+        "commander": "legal" ,
+        "brawl": "legal" ,
+        "historicbrawl": "legal" ,
+        "paupercommander": "restricted" ,
+        "duel": "legal" ,
+        "oldschool": "not_legal" ,
+        "premodern": "not_legal"
+      } ,
+      "games": [
+        "arena" ,
+        "paper" ,
+        "mtgo"
+      ] ,
+      "reserved": false ,
+      "foil": true ,
+      "nonfoil": true ,
+      "finishes": [
+        "nonfoil" ,
+        "foil"
+      ] ,
+      "oversized": false ,
+      "promo": false ,
+      "reprint": false ,
+      "variation": false ,
+      "set_id": "44b8eb8f-fa23-401a-98b5-1fbb9871128e" ,
+      "set": "mid" ,
+      "set_name": "Innistrad: Midnight Hunt" ,
+      "set_type": "expansion" ,
+      "set_uri": "https://api.scryfall.com/sets/44b8eb8f-fa23-401a-98b5-1fbb9871128e" ,
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set\u0026q=e%3Amid\u0026unique=prints" ,
+      "scryfall_set_uri": "https://scryfall.com/sets/mid?utm_source=api" ,
+      "rulings_uri": "https://api.scryfall.com/cards/3d0081b1-40fd-44ad-b154-efe2f27fed6b/rulings" ,
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released\u0026q=oracleid%3A0718ea67-ced3-46bc-9164-8841e6bd73ae\u0026unique=prints" ,
+      "collector_number": "244" ,
+      "digital": false ,
+      "rarity": "uncommon" ,
+      "flavor_text": "\"Like us, the morning fights for survival.\"" ,
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7" ,
+      "artist": "John Di Giovanni" ,
+      "artist_ids": [
+        "dc7630d7-41e3-4fef-8630-058d1ba39d37"
+      ] ,
+      "illustration_id": "9c6a9bfe-b5ec-483b-a823-15da77d0d3d2" ,
+      "border_color": "black" ,
+      "frame": "2015" ,
+      "full_art": false ,
+      "textless": false ,
+      "booster": true ,
+      "story_spotlight": false ,
+      "edhrec_rank": 16357 ,
+      "preview": {
+        "source": "Oh JooHyun" ,
+        "source_uri": "https://twitter.com/oh_joohyun/status/1435946247458672645" ,
+        "previewed_at": "2021-09-09"
+      } ,
+      "prices": {
+        "usd": "0.07" ,
+        "usd_foil": "0.07" ,
+        "usd_etched": null ,
+        "eur": "0.28" ,
+        "eur_foil": "0.17" ,
+        "tix": "0.01"
+      } ,
+      "related_uris": {
+        "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=535040" ,
+        "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article\u0026game=magic\u0026partner=scryfall\u0026q=Sunrise+Cavalier\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall" ,
+        "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck\u0026game=magic\u0026partner=scryfall\u0026q=Sunrise+Cavalier\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall" ,
+        "edhrec": "https://edhrec.com/route/?cc=Sunrise+Cavalier" ,
+        "mtgtop8": "https://mtgtop8.com/search?MD_check=1\u0026SB_check=1\u0026cards=Sunrise+Cavalier"
+      } ,
+      "purchase_uris": {
+        "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=248315\u0026utm_campaign=affiliate\u0026utm_medium=api\u0026utm_source=scryfall" ,
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall\u0026searchString=Sunrise+Cavalier\u0026utm_campaign=card_prices\u0026utm_medium=text\u0026utm_source=scryfall" ,
+        "cardhoarder": "https://www.cardhoarder.com/cards/93494?affiliate_id=scryfall\u0026ref=card-profile\u0026utm_campaign=affiliate\u0026utm_medium=card\u0026utm_source=scryfall"
+      }
+    }
+  ]
+}
