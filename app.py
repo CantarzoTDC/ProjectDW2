@@ -10,8 +10,8 @@ def index():  # put application's code here
     return render_template('index.html')
 
 
-@app.route('/search', methods=['get'])
-def getCard(q):
+@app.route('/pesquisa', methods=['get'])
+def getCard():
     dados:json
     q = request.form.get('search')
     if q == '':
@@ -19,18 +19,7 @@ def getCard(q):
     else:
         dados = requests.get('https://api.scryfall.com/catalog/card/search?q='+q).json()
 
-
-    d for d in dados:
-        nome = dados['data'][0]['name']
-        imgurl = dados['data'][0]['image_uris']['normal']
-        idioma = dados['data'][0]['lang']
-        custo = dados['data'][0]['mana_cost']
-        cmc = dados['data'][0]['cmc']
-        poder = dados['data'][0]['power']
-        resist = dados['data'][0]['toughness']
-        cor = dados['data'][0]['colors']
-        mtg_url = dados['data'][0]['related_uris']['gatherer']
-
+    return render_template('pesquisa.html')
 
 
 @app.route('/NAMEme', methods=['get', 'post'])
