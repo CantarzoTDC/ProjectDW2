@@ -54,17 +54,27 @@
     </div>
 </div>
 
+{#
+            imguri = dados['data'][0]['image_uris']['normal']
+            idioma: str = dados['data'][0]['lang']
+            custo_m: str = dados['data'][0]['mana_cost']
+            cmc: str = dados['data'][0]['cmc']
+            p_r: str = (dados['data'][0]['power'] + '/' + dados['data'][0]['toughness'])
+            cor: str = dados['data'][0]['colors']
+            refs = dados['data'][0]['related_uris']['gatherer']
+#}
+
 <!-- Team Container -->
 <div class="w3-container w3-padding-64 w3-center" id="team">
     <h2>Achou o que estava procurando?</h2>
     <div class="w3-row"><br>
-        {% if ()for a in a :%}
+        {#        {% if ()for a in a :%}#}
         <div class="w3-quarter">
-            <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+            <img src='{% imguri %}' alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
             <h3>Johnny Walker</h3>
             <p>Web Designer</p>
         </div>
-        {%  %}
+        {#        {%  %}#}
     </div>
 </div>
 
