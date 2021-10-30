@@ -5,13 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- FontAwesome kit -->
-    {#<script src="..\static\script\644d6fbffe.js" crossorigin="anonymous"></script> https://kit.fontawesome.com/644d6fbffe.js #}
     <!-- Bootstrap & CSS -->
-    <link rel="stylesheet" href="..\static\css\bootstrap.min.css">
-    <link rel="stylesheet" href="..\static\css\font-awesome.min.css">
-    <link rel="stylesheet" href="..\static\css\w3.css">
-    <link rel="stylesheet" href="..\static\css\w3-theme-black.css">
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../static/css/w3.css" rel="stylesheet">
+    <link href="../static/css/w3-theme-black.css" rel="stylesheet">
     <title>MTG Buscas</title>
 </head>
 
@@ -22,20 +20,20 @@
 <body id="myPage" style="max-height:100vh; min-height:80vh">
 <!-- Navbar -->
 <div class="w3-top">
-    <div class="w3-bar w3-theme-d2 w3-left-align">
+    <div style="display: block" class="w3-bar w3-theme-d2 w3-left-align">
         <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2"
            href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-        <a href="#myPage" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i></a>
-        <a href="/pesquisa" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Pesquisar&nbsp;<i
+        <a href="index.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i></a>
+        <a href="pesquisa.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Pesquisar&nbsp;<i
                 class="fa fa-magic"></i></a>
-        <a href="/wt_" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i
+        <a href="wt_.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i
                 class="fa-question-circle-o"></i></a>
     </div>
 
     <!-- Navbar on small screens -->
     <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-        <a href="/pesquisa" class="w3-bar-item w3-button">Pesquisa<i class="fab fa-wizards-of-the-coast"></i></a>
-        <a href="/wt_" class="w3-bar-item w3-button"> ? </a>
+        <a class="w3-bar-item w3-button" href="pesquisa.html">Pesquisa<i class="fab fa-wizards-of-the-coast"></i></a>
+        <a class="w3-bar-item w3-button" href="wt_.html"> ? </a>
     </div>
 </div>
 
@@ -71,10 +69,12 @@
         {#        {% if ()for a in a :%}#}
         <div class="w3-quarter">
             <img src='{% imguri %}' alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-            <h3>Johnny Walker</h3>
-            <p>Web Designer</p>
+            <h3>{% nome %}</h3>
+            <ul>
+                <li style="list-style: none">Gatherer <a href="{% refs %}"></a></li>
+            </ul>
         </div>
-        {#        {%  %}#}
+        {#        {% endfor %}#}
     </div>
 </div>
 
