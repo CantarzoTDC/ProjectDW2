@@ -47,16 +47,17 @@
     <h2>Achou o que estava procurando?</h2>
     <div class="w3-row"><br>
 
-        {#        {% if ()for a in a :%}#}
-        <div class="w3-quarter">
-            <img src='{% imguri %}' alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-            <h3>{% nome %}</h3>
-            <ul>
-                <li style="list-style: none">Gatherer <a href="{% refs %}"></a></li>
-            </ul>
-        </div>
-        {#        {% endfor %}#}
-
+        {% for object in data %}
+            <div class="w3-quarter">
+                <img src='{% imguri %}' alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                <h3>{% nome %}</h3>
+                <ul>
+                    <li style="list-style: none">Gatherer <a href="{% refs %}"></a></li>
+                </ul>
+            </div>
+        {% endfor %}
+        {% if (nu_page == True) %}
+        <span style="alignment: right"><a style="link: none" href="{{ nu_page }}"></a> </span>
     </div>
 </div>
 

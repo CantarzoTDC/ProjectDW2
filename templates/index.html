@@ -41,7 +41,7 @@
             <h1>Hey Kid, Wanna find some Magic?</h1>
 
             <form action="{{ url_for("getCard") }}" method="get">
-                <input type="text" style="width: 40%; min-height: 36px" class="w3-bar-item" id="search">
+                <input type="text" style="width: 40%; min-height: 36px" class="w3-bar-item" name="q">
                 <button type="submit" style="max-height: 36px"
                         class="w3-bar-item w3-button w3-hide-small w3-hover-teal">Magic? <i class="fa fa-search"></i>
                 </button>
