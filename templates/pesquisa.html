@@ -12,11 +12,6 @@
     <link href="../static/css/w3-theme-black.css" rel="stylesheet">
     <title>MTG Buscas</title>
 </head>
-
-<!DOCTYPE html>
-<html>
-<meta charset="UTF-8">
-
 <body id="myPage" style="max-height:100vh; min-height:80vh">
 <!-- Navbar -->
 <div class="w3-top">
@@ -37,21 +32,6 @@
     </div>
 </div>
 
-<!-- Modal -->
-<div id="id01" class="w3-modal">
-    <div class="w3-modal-content w3-card-4 w3-animate-top">
-        <header class="w3-container w3-teal w3-display-container">
-            <span onclick="document.getElementById('id01').style.display='none'"
-                  class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
-            <h4>&nbsp;</h4>
-            <h5>&nbsp;<i class="fa fa-smile-o"></i></h5>
-        </header>
-        <footer class="w3-container w3-teal">
-            <p>&nbsp;</p>
-        </footer>
-    </div>
-</div>
-
 {#
             imguri = dados['data'][0]['image_uris']['normal']
             idioma: str = dados['data'][0]['lang']
@@ -66,6 +46,7 @@
 <div class="w3-container w3-padding-64 w3-center" id="team">
     <h2>Achou o que estava procurando?</h2>
     <div class="w3-row"><br>
+
         {#        {% if ()for a in a :%}#}
         <div class="w3-quarter">
             <img src='{% imguri %}' alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
@@ -75,6 +56,7 @@
             </ul>
         </div>
         {#        {% endfor %}#}
+
     </div>
 </div>
 
