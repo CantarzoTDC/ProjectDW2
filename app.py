@@ -19,10 +19,17 @@ def getCard():
     else:
         url = 'https://api.scryfall.com/catalog/card/search?q=' + q + '&format=json&pretty=true'
     dados = requests.get(url)
-    nome: str = dados.g
+    nome = None
+    imguri = None
+    custo_m = None
+    cmc = None
+    p_r = None
+    cor = None
+    refs = None
 
-    if dados.
-        nome: str = dados['data'][0]['name']
+    #    if dados
+
+    nome: str = dados['data'][0]['name']
     imguri = dados['data'][0]['image_uris']['normal']
     idioma: str = dados['data'][0]['lang']
     custo_m: str = dados['data'][0]['mana_cost']
